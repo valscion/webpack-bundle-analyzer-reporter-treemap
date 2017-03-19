@@ -8,6 +8,12 @@
     "start": "webpack --env.env=dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "public",
+    "lib",
+    "src",
+    "views"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
