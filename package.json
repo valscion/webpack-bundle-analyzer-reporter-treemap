@@ -1,6 +1,6 @@
 {
   "name": "webpack-bundle-analyzer-reporter-treemap",
-  "version": "1.0.0.alpha.1",
+  "version": "1.0.0-alpha.1",
   "description": "Treemap reporter for webpack-bundle-analyzer",
   "main": "index.js",
   "scripts": {
