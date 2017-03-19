@@ -1,10 +1,9 @@
 const webpack = require('webpack');
 
 module.exports = opts => {
-  opts = {
-    env: 'dev',
-    ...opts
-  };
+  opts = Object.assign({
+    env: 'dev'
+  }, opts);
 
   return {
     context: __dirname,
