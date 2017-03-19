@@ -14,8 +14,19 @@
     "src",
     "views"
   ],
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webpack",
+    "bundle",
+    "analyzer",
+    "modules",
+    "size",
+    "interactive",
+    "chart",
+    "treemap",
+    "zoomable",
+    "zoom"
+  ],
+  "author": "Yury Grunin <grunin.ya@ya.ru>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
