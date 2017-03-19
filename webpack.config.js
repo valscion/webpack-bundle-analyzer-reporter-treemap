@@ -1,10 +1,8 @@
 const webpack = require('webpack');
-const BundleAnalyzePlugin = require('./lib/BundleAnalyzerPlugin');
 
 module.exports = opts => {
   opts = {
     env: 'dev',
-    analyze: false,
     ...opts
   };
 
@@ -64,14 +62,6 @@ module.exports = opts => {
       }
 
       if (opts.env === 'prod') {
-        if (opts.analyze) {
-          plugins.push(
-            new BundleAnalyzePlugin({
-              generateStatsFile: true
-            })
-          );
-        }
-
         plugins.push(
           new webpack.DefinePlugin({
             'process.env': {
