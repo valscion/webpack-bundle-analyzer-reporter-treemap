@@ -1,0 +1,9 @@
+.container, .map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sizesSwitcher {
+  padding: 3px 10px 2px;
+}
